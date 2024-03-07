@@ -1,0 +1,7 @@
+import grails3mysql.SciformaProjectNew
+
+model {
+	SciformaProjectNew sciformaProjectNew
+}
+
+json g.render(sciformaProjectNew, [resolveTemplate: false])

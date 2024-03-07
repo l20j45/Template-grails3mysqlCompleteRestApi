@@ -1,0 +1,10 @@
+with open("hello.txt", mode="w") as file:
+    rango = range(0,1000)
+    for repeticion in rango : 
+        sql = f"INSERT INTO `sciforma_project_new` ( `version`, `qs_submit_intake`, `internal_project_id`, `date_created`, `qs_submit_by`, `nickname`, `active`, `customer_special_handling`, `rgate_wt_yield`, `ft_multisite_parallelism`, `safe_launch_rgate_asy_yield`, `complexity_code`, `qs_submit_date`, `wafer_test_insertsrgate`, `security_level`, `rgate_ft_yield`, `pdagatecurrentdate`, `mscrr_wt_perf`, `customers`, `number_of_packages`, `mscrr_ft_perf`, `ft_inserts_safe_launch`, `tape_out_prior_ntirgate_flag`, `number_of_die`, `last_updated`, `pcagatecurrentdate`, `ft_test_time_safe_launch`, `final_test_insertsrgate`, `bi_safe_launch_duration`, `wt_multisite_parallelism`, `total_number_of_dice`, `cesgatecurrentdate`, `technology_capability_request`, `pcgatecurrentdate`, `technology`, `product_transfer_flag`, `ifrs_code`, `ppagatecurrentdate`, `rgatecurrentdate`, `program_manager`, `project_name`, `project_type`, `mag_code`, `sap_project_id`, `product_line`, `published_date`, `safe_launch_rgate_wt_yield`, `equalplan`, `product_type`, `row_crte_gmt_dttm`, `wt_inserts_safe_launch`, `cqsgatecurrentdate`, `rgate_asy_yield`, `bi_safe_launch_units_qty`, `qty_safe_launch`, `tp_qual_cpk_index`, `status_code`, `commercial_name`, `final_test_test_timergate`, `rqgatecurrentdate`, `current_phase_code`, `egatecurrentdate`, `site_to_site_yield_var`, `safe_launch_rgate_ft_yield`) VALUES ( 1, '123', '{9000+repeticion}', '2024-03-06 11:07:42', '1', '11', b'1', '1', '1', NULL, '1', '1', '2024-01-06 11:08:02', 1.00, '1', '1', '2024-03-16 11:08:07', '1', '1', 1, '1', 1.00, '1', 1, '2024-03-01 11:08:10', '2024-03-06 11:08:10', 1.00, 1.00, 1.00, 1.00, 1, '2024-03-06 11:08:13', NULL, '2024-03-06 11:18:13', '1', '1', '1', '2024-03-06 11:08:16', '2024-03-06 11:01:16', '1', '1', '1', '1', '1', '1', '2024-03-06 11:08:10', '1', '1', '1', '2024-03-06 11:08:21', 1.00, '2024-03-06 11:08:23', '1', NULL, NULL, NULL, NULL, NULL, NULL, '2024-03-06 11:08:26', NULL, '2024-03-06 11:08:27', NULL, NULL);"
+        file.write(sql)
+        file.write("\n")
+
+    
+
+    

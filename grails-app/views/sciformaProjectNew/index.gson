@@ -1,0 +1,8 @@
+import grails3mysql.SciformaProjectNew
+
+model {
+	Iterable<SciformaProjectNew> sciformaProjectNewList
+}
+
+json tmpl.sciformaProjectNew(sciformaProjectNewList ?: [])
+
